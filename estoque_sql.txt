@@ -1,0 +1,8 @@
+create database estoque;
+use estoque;
+create table itens(
+id integer auto_increment,
+description varchar(255),
+quantity integer,
+primary key(id)
+);
